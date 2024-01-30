@@ -11,7 +11,7 @@
         {{$nameGadget}}
        </h1>
        <h2>
-        {{$price}}
+        $ {{$price}}
        </h2>
     </header>
     <main>

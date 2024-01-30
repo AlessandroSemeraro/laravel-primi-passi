@@ -28,3 +28,11 @@ Route::get('/second', function () {
     $price= '34,00';
     return view('second', ['nameGadget'=> $nameGadget , 'price'=>  $price]);
 });
+
+Route::get('/third', function () {
+    $imageUrl='https://m.media-amazon.com/images/I/8157WTsCh+L._AC_SL1500_.jpg';
+    $nameProduct='Amazon Basics Sleeve for 29.5 cm Laptop';
+    $descriptionProduct=' Form-fitting sleeve with quick top-loading access! Precise fit for laptops and ultrabooks with a 11.6 inch display ';
+    $price='7.76';
+    return view('third', ['imageUrl'=> $imageUrl , 'nameProduct'=>  $nameProduct , 'descriptionProduct'=> $descriptionProduct , 'price' => $price ]);
+});

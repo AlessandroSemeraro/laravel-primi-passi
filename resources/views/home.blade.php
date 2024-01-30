@@ -13,6 +13,7 @@
     <main>
         <a href="http://127.0.0.1:8000/first">link first page</a>
         <a href="http://127.0.0.1:8000/second">link second page</a>
+        <a href="http://127.0.0.1:8000/third">link third page</a>
     </main>
 </body>
 </html>
